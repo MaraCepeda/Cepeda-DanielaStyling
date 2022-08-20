@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2? familia= Ibarra+Real+Nova:ital,peso@0,400;0,700;1,500;1,700 &family= Playfair+Display & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.encabezado{
+    height: 300px;
+    background-color: #ffffff;
+    display:flex;
+}
+.daniSty{
+    color: #000000;
+    background-color: #D9C2AD;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.dani{
+}
+.encabezado nav ul{
+margin-left: 50rem;
+position: relative;
+left: 170px;
+bottom: 55px;
+}
+.encabezado nav ul li{
+    font-size: 30px;
+    color: #000000;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+
+.presentacion{
+    height: 1000px;
+    background-color: #8C796D;
+    color: #ffffff;
+}
+
+.imagen1{
+    height: 500px;
+    border: 5px solid #ffffff;
+    position: relative;
+    left: 30px;
+    bottom: 150px;
+}
+.imagen2{
+    height: 700px;
+    border: 5px solid #ffffff;
+    position: relative;
+    right: 90px;
+    top: 250px;
+}
+.imagen3{
+    height: 650px;
+    border: 5px solid #ffffff;
+    position: relative;
+    right: 160px;
+    bottom: 150px;
+}
+.daniBus{
+    font-size: 80px;
+    position: relative;
+    bottom: 70px;
+    left: 900px;
+}
+.asesora{
+    font-size: 50px;
+    position: relative;
+    left: 900px;
+    bottom: 55px;
+}
+.textoIntro{
+    width: 1000px;
+    font-size:40px ;
+    position: relative;
+    left: 900px;
+    bottom: 30px;
+}
+
+.encuesta{
+    height: 900px;
+    background-image: url(../img/imagenfondo-home.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cuestionario{
+    background-color: #272525b2;
+    background: tr;
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;   
+    left: 650px;
+    top: 250px;
+}
+.cuestionario1{
+    font-size: 80px;
+    color: #ffffff;
+    position: ;
+}
+.cuestionario1:hover{
+    font-size: 5.5rem;
+    color: #ffffff;
+    }
+.queServicio{
+    width: 800px;
+    font-size: 6.8rem;
+    color: #ffffff;  
+    position: relative;
+    top: 150px;
+    left: 0.5rem;
+}
+.responde{
+    font-size: 3rem;
+    color: #ffffff;
+    width: 1000px;
+    position: relative;
+    top: 10rem;
+    left: 0.5rem;
+}
+
+footer{
+    display: flex;
+    height: 150px;
+    background-color: #73351F;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.biografia{
+    background-color: #474141;
+    color: #ffffff;
+    height: 1700px;
+}
+
+.fotoDaniela1{
+    height: 700px;
+    border: 5px solid #ffffff;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+
+.fotoDaniela2{
+    height: 700px;
+    border: 5px solid #ffffff;
+    position: relative;
+    bottom: 800px;
+    left: 1630px;
+}
+.tituloBio{
+    font-size: 60px;
+    position: relative;
+    bottom: 600px;
+    left: 500px;
+}
+
+.texto1{
+    width: 100rem;
+    font-size: 60px;
+    position: relative;
+    left: 450px;
+    bottom: 550px;
+}
+.texto2{
+    width: 100rem;
+    font-size: 60px;
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+}
+
+.collage{
+    width: 1300px;
+    position: relative;
+    top: 150px;
+}
+.tituloExagerar{
+    font-size: 65px;
+    position: relative;
+    left: 1400px;
+    bottom: 800px;
+}
+
+.frase{
+    width: 660px;
+    font-size: 40px;
+    position: relative;
+    left:1400px ;
+    bottom: 700px;
+}
+.autor{
+    font-size: 40px;
+    position: relative;
+    left: 1800px;
+    bottom: 550px;
+}
+ 
+.seccionServicios{
+    background-color: #232426;
+
+}
+
+.servicio1{
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+
+.express{
+    display: inline-block;
+    width: 250px;
+    background-color: #a59e9e9c;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.servicio2{
+    position: relative;
+    left: 1500px;
+    bottom: 250px;
+}
+.detox{
+    display: inline-block;
+    width: 250px;
+    background-color: #a59e9e9c;
+    font-size: 40px;
+    position: relative;
+    left: 1200px;    
+    bottom: 200px;
+}
+
+
+.seccionModa{
+    background-color: #EDEDED;
+    font-size: 50px;
+    text-align: center;
+    color: #73351F;
+}
+
+.seccionModa img{
+    height: 500px;
+}
+
+.seccionContacto{
+    background-image: url(../img/torreeiffel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 2000px;
+
+}
+.contactoBox{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 1200px;
+    background-color: #232426b2 ;
+}
